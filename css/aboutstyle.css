@@ -67,7 +67,7 @@
 
 @font-face {
     font-family: 'EncodeSans-Bold';
-    src: url('/fonts/EncodeSans-Bold.woff2') format('woff2'),
+    src: url('/fonts/EncodeSans-Bold.woff') format('woff2'),
          url('/fonts/EncodeSans-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
@@ -75,7 +75,7 @@
 
 @font-face {
     font-family: 'MavenPro-Regular';
-    src: url('/fonts/MavenPro-Regular.woff2') format('woff2'),
+    src: url('/fonts/MavenPro-Regular.woff') format('woff2'),
          url('/fonts/MavenPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
@@ -83,7 +83,7 @@
 
 @font-face {
     font-family: 'Kadwa-Regular';
-    src: url('/fonts/Kadwa-Regular.woff2') format('woff2'),
+    src: url('/fonts/Kadwa-Regular.woff') format('woff2'),
          url('/fonts/Kadwa-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
@@ -91,7 +91,7 @@
 
 @font-face {
     font-family: 'IstokWeb-Bold';
-    src: url('/fonts/IstokWeb-Bold.woff2') format('woff2'),
+    src: url('/fonts/IstokWeb-Bold.woff') format('woff2'),
          url('/fonts/IstokWeb-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
