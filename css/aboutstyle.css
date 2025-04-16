@@ -44,7 +44,7 @@
 }*/
 
 .words {
-    font-family: "Kadwa-Regular", serif;
+    font-family: "kadwa-regular", serif;
     font-size: 1.3vw;
     padding: 10px;
     text-align: right;
@@ -52,7 +52,7 @@
 }
 
 .words a {
-    font-family: "Kadwa-Regular", serif;
+    font-family: "kadwa-regular", serif;
     font-size: 1.3vw;
     padding: 10px;
     text-align: right;
@@ -66,33 +66,33 @@
 }
 
 @font-face {
-    font-family: 'EncodeSans-Bold';
-    src: url('./fonts/EncodeSans-Bold.woff2') format('woff2'),
-         url('./fonts/EncodeSans-Bold.woff') format('woff');
+    font-family: 'encodeSans-bold';
+    src: url('/fonts/encodesans-bold.woff2') format('woff2'),
+         url('/fonts/encodesans-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
-    font-family: 'MavenPro-Regular';
-    src: url('./fonts/MavenPro-Regular.woff2') format('woff2'),
-         url('./fonts/MavenPro-Regular.woff') format('woff');
+    font-family: 'mavenpro-regular';
+    src: url('/fonts/mavenpro-regular.woff2') format('woff2'),
+         url('/fonts/mavenpro-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
-    font-family: 'Kadwa-Regular';
-    src: url('./fonts/Kadwa-Regular.woff2') format('woff2'),
-         url('./fonts/Kadwa-Regular.woff') format('woff');
+    font-family: 'kadwa-regular';
+    src: url('/fonts/kadwa-regular.woff2') format('woff2'),
+         url('/fonts/kadwa-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
-    font-family: 'IstokWeb-Bold';
-    src: url('./fonts/IstokWeb-Bold.woff2') format('woff2'),
-         url('./fonts/IstokWeb-Bold.woff') format('woff');
+    font-family: 'istokWeb-bold';
+    src: url('/fonts/istokweb-bold.woff2') format('woff2'),
+         url('/fonts/istokweb-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
