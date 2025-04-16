@@ -44,7 +44,7 @@
 }*/
 
 .words {
-    font-family: "kadwa-regular", serif;
+    font-family: "Kadwa-Regular", serif;
     font-size: 1.3vw;
     padding: 10px;
     text-align: right;
@@ -52,7 +52,7 @@
 }
 
 .words a {
-    font-family: "kadwa-regular", serif;
+    font-family: "Kadwa-Regular", serif;
     font-size: 1.3vw;
     padding: 10px;
     text-align: right;
@@ -66,40 +66,40 @@
 }
 
 @font-face {
-    font-family: 'encodeSans-bold';
-    src: url('../fonts/encodesans-bold.woff2') format('woff2'),
-         url('../fonts/encodesans-bold.woff') format('woff');
+    font-family: 'EncodeSans-Bold';
+    src: url('/fonts/EncodeSans-Bold.woff2') format('woff2'),
+         url('/fonts/EncodeSans-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
-    font-family: 'mavenpro-regular';
-    src: url('../fonts/mavenpro-regular.woff2') format('woff2'),
-         url('../fonts/mavenpro-regular.woff') format('woff');
+    font-family: 'MavenPro-Regular';
+    src: url('/fonts/MavenPro-Regular.woff2') format('woff2'),
+         url('/fonts/MavenPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
-    font-family: 'kadwa-regular';
-    src: url('../fonts/kadwa-regular.woff2') format('woff2'),
-         url('../fonts/kadwa-regular.woff') format('woff');
+    font-family: 'Kadwa-Regular';
+    src: url('/fonts/Kadwa-Regular.woff2') format('woff2'),
+         url('/fonts/Kadwa-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
-    font-family: 'istokWeb-bold';
-    src: url('../fonts/istokweb-bold.woff2') format('woff2'),
-         url('../fonts/istokweb-bold.woff') format('woff');
+    font-family: 'IstokWeb-Bold';
+    src: url('/fonts/IstokWeb-Bold.woff2') format('woff2'),
+         url('/fonts/IstokWeb-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 /*关于标题和旁边的大小姐图片的*/
 .hero-text h1 {
-    font-family: "encodeSans-eold", sans-serif;
+    font-family: "EncodeSans-Bold", sans-serif;
     font-size: 8vw; 
     line-height: 1.0;
     color: #526D82;
@@ -163,7 +163,7 @@ img {
 }
 
 .grid-container p {
-    font-family: "kadwa-regular", serif;
+    font-family: "Kadwa-Regular", serif;
     font-size: 2.5vw;         
     color: #CDCFD0;
     text-align: center;
@@ -194,7 +194,7 @@ img {
 }
 
 .container a {
-    font-family: "mavenPro-regular", sans-serif;
+    font-family: "MavenPro-Regular", sans-serif;
     color: #526D82;
     font-size: 40px;
     text-decoration: none;
@@ -211,14 +211,14 @@ img {
 }
 
 .introduction-text h1 {
-    font-family: "istokweb-bold", sans-serif;
+    font-family: "IstokWeb-Bold", sans-serif;
     font-size: 65pt;
     color: #CDCFD0;
     padding-top: 2%;
 }
 
 .introduction-text p {
-    font-family: "mavenPro-regular", sans-serif;
+    font-family: "MavenPro-Regular", sans-serif;
     font-size: 20pt;
     color: #CDCFD0;
     padding-top: 1%;
@@ -233,14 +233,14 @@ img {
 }
 
 .whatisoc-text h1 {
-    font-family: "istokWeb-bold", sans-serif;
+    font-family: "IstokWeb-Bold", sans-serif;
     font-size: 65pt;
     color: #526D82;
     padding-top: 2%;
 }
 
 .whatisoc-text p {
-    font-family: "mavenpro-regular", sans-serif;
+    font-family: "MavenPro-Regular", sans-serif;
     font-size: 20pt;
     color: #526D82;
     padding-top: 1%;
@@ -268,7 +268,7 @@ img {
 }
 
 .talk-text h1 {
-    font-family: "encodesans-blod", sans-serif;
+    font-family: "EncodeSans-Blod", sans-serif;
     font-size: 6vw; 
     line-height: 1;
     color: #EDE9E4;
@@ -277,7 +277,7 @@ img {
 }
 
 .talk-text h3 {
-    font-family: "mavenpro-regular", sans-serif;
+    font-family: "MavenPro-Regular", sans-serif;
     font-size: 2vw;
     color: #EDE9E4;
 }
