@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+body {
+    background-color: #EDE9E4;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -67,36 +71,36 @@
 
 @font-face {
     font-family: 'EncodeSans-Bold';
-    src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
-         url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
-         url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
+    src: url('/fonts/EncodeSans-Bold.woff') format('woff'),
+         url('/fonts/EncodeSans-Bold.woff2') format('woff2'),
+         url('/fonts/EncodeSans-Bold.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'MavenPro-Regular';
-    src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
-         url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
-         url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
+    src: url('/fonts/MavenPro-Regular.woff') format('woff'),
+         url('/fonts/MavenPro-Regular.woff2') format('woff2'),
+         url('/fonts/MavenPro-Regular.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'Kadwa-Regular';
-    src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
-         url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
-         url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
+    src: url('/fonts/Kadwa-Regular.woff') format('woff'),
+         url('/fonts/Kadwa-Regular.woff2') format('woff2'),
+         url('/fonts/Kadwa-Regular.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'IstokWeb-Bold';
-    src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
-         url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
-         url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
+    src: url('/fonts/IstokWeb-Bold.woff') format('woff'),
+         url('/fonts/IstokWeb-Bold.woff2') format('woff2'),
+         url('/fonts/IstokWeb-Bold.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
@@ -105,5 +109,19 @@
     max-width: 90%;
     padding-top: 100px; /* 避开导航栏 */
     padding-bottom: 50px;
-    color: #1d1d1d;
+    padding-left: 3%;
+}
+
+.title h1 {
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 4vw;
+    padding-top: 2%;
+    color: #526D82;
+}
+
+.title p {
+    font-family: "MavenPro-Regular", sans-serif;
+    font-size: 20pt;
+    padding-top: 2%;
+    color: #526D82;
 }
