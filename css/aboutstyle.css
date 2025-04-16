@@ -67,32 +67,32 @@
 
 @font-face {
     font-family: 'encodeSans-bold';
-    src: url('/fonts/encodesans-bold.woff2') format('woff2'),
-         url('/fonts/encodesans-bold.woff') format('woff');
+    src: url('../fonts/encodesans-bold.woff2') format('woff2'),
+         url('../fonts/encodesans-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'mavenpro-regular';
-    src: url('/fonts/mavenpro-regular.woff2') format('woff2'),
-         url('/fonts/mavenpro-regular.woff') format('woff');
+    src: url('../fonts/mavenpro-regular.woff2') format('woff2'),
+         url('../fonts/mavenpro-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'kadwa-regular';
-    src: url('/fonts/kadwa-regular.woff2') format('woff2'),
-         url('/fonts/kadwa-regular.woff') format('woff');
+    src: url('../fonts/kadwa-regular.woff2') format('woff2'),
+         url('../fonts/kadwa-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'istokWeb-bold';
-    src: url('/fonts/istokweb-bold.woff2') format('woff2'),
-         url('/fonts/istokweb-bold.woff') format('woff');
+    src: url('../fonts/istokweb-bold.woff2') format('woff2'),
+         url('../fonts/istokweb-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
