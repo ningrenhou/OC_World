@@ -216,14 +216,14 @@ img {
 
 .introduction-text h1 {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 60pt;
+    font-size: 7vw;
     color: #CDCFD0;
     padding-top: 2%;
 }
 
 .introduction-text p {
     font-family: "MavenPro-Regular", sans-serif;
-    font-size: 20pt;
+    font-size: 1.666rem;
     color: #CDCFD0;
     padding-top: 1%;
 }
@@ -238,14 +238,14 @@ img {
 
 .whatisoc-text h1 {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 60pt;
+    font-size: 7vw;
     color: #526D82;
     padding-top: 2%;
 }
 
 .whatisoc-text p {
     font-family: "MavenPro-Regular", sans-serif;
-    font-size: 20pt;
+    font-size: 1.666rem;
     color: #526D82;
     padding-top: 1%;
 }
