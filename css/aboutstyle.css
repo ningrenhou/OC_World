@@ -147,13 +147,14 @@ body {
     }
 
     .navigation {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         padding: 0.3%;
         row-gap: 2px;
     }
 
     .words {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
+        white-space: nowrap;
         text-align: center;
         padding: 3px;
     }
@@ -164,6 +165,6 @@ body {
     }
 
     .words a {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
     }
 }
