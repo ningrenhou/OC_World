@@ -342,13 +342,15 @@ img {
     }
 
     .navigation {
+        display: flex;
+        overflow-x: auto;
         flex-wrap: nowrap;
         padding: 0.3%;
         row-gap: 2px;
     }
 
     .words {
-        font-size: 0.65rem;
+        font-size: 0.5rem;
         white-space: nowrap;
         text-align: center;
         padding: 3px;
@@ -360,7 +362,7 @@ img {
     }
 
     .words a {
-        font-size: 0.65rem;
+        font-size: 0.5rem;
     }
 }
 
