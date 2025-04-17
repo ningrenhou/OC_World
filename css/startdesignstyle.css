@@ -110,6 +110,7 @@ body {
     padding-top: 100px; /* 避开导航栏 */
     padding-bottom: 50px;
     padding-left: 6%;
+    overflow-x: hidden;
 }
 
 .startdesign h1 {
@@ -135,6 +136,7 @@ body {
     flex-direction: column;
     gap: 4%;
     margin-right: 2vw;
+    overflow-x: hidden;
 }
 
 .step-1 {
@@ -157,20 +159,20 @@ body {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 4vw;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 2%;
     color: #526D82;
     margin-bottom: 2%;
 }
 
 .step-1-words {
-    width: 55%;
+    width: 57%;
 }
 
 .step-1-words p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 16pt;
-    padding-left: 5%;
+    padding-left: auto;
     width: 75%;
     min-width: 400px;
     color: #526D82;
@@ -221,13 +223,13 @@ body {
 }
 
 .step-2-words {
-  width: 55%;
+  width: 57%;
 }
 
 .step-2-words p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 16pt;
-    padding-left: 5%;
+    padding-left: auto;
     width: 75%;
     min-width: 400px;
     color: #526D82;
@@ -278,13 +280,13 @@ body {
 }
 
 .step-3-words {
-  width: 55%;
+  width: 57%;
 }
 
 .step-3-words p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 16pt;
-    padding-left: 5%;
+    padding-left: auto;
     width: 75%;
     min-width: 400px;
     color: #526D82;
