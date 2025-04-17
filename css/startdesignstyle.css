@@ -387,6 +387,8 @@ body {
     }
 
     .navigation {
+        display: flex;
+        overflow-x: auto;
         flex-wrap: nowrap;
         padding: 0.3%;
         row-gap: 2px;
