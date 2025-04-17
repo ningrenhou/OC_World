@@ -108,20 +108,27 @@ body {
 .title {
     max-width: 90%;
     padding-top: 100px; /* 避开导航栏 */
-    padding-bottom: 50px;
-    padding-left: 3%;
+    padding-bottom: 30px;
+    padding-left: 5%;
 }
 
 .title h1 {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 4vw;
-    padding-top: 2%;
+    font-size: 60pt;
+    padding-top: 5%;
     color: #526D82;
 }
 
 .title p {
     font-family: "MavenPro-Regular", sans-serif;
-    font-size: 20pt;
-    padding-top: 2%;
+    font-size: 16pt;
+    padding-top: 4.5%;
+    color: #526D82;
+}
+
+.title-p p {
+    font-family: "MavenPro-Regular", sans-serif;
+    font-size: 16pt;
+    padding-top: 4.5%;
     color: #526D82;
 }
