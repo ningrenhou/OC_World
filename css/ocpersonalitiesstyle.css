@@ -26,7 +26,7 @@ body {
     top: 0;
     left: 0;
     justify-content: space-between;
-    background-color: rgb(101, 131, 152);
+    background-color: #658398;
     width: 100%;
     height: 6vh;
     display: flex;
@@ -34,6 +34,8 @@ body {
     align-items: center;
     z-index: 1;
     padding: 2.5%;
+
+    box-shadow: 0 6px 12px #526D82;
 }
 
 /*.title-wordmark {
@@ -49,7 +51,7 @@ body {
 
 .words {
     font-family: "Kadwa-Regular", serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 10px;
     text-align: right;
     color: white;
@@ -57,7 +59,7 @@ body {
 
 .words a {
     font-family: "Kadwa-Regular", serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 10px;
     text-align: right;
     color: white;
@@ -138,78 +140,78 @@ body {
 }
 
 .forms-background {
-    background-color: #CDCFD0;
     width: 100%;
+    background-color: #658398;
 }
 
 .forms-text {
     width: 100%;
-    margin: auto;
     padding-left: 3%;
     padding-right: 3%;
+    margin: auto;
 }
 
 .forms-text h1{
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3rem;
-    text-align: center;
     padding-top: 5%;
     padding-bottom: 1%;
-    color: #526D82;
     margin-bottom: 1%;
+    text-align: center;
+    color: #CDCFD0;
 }
 
 .forms-text p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
-    text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    color: #526D82;
     margin-bottom: 1%;
+    text-align: center;
+    color: #CDCFD0;
 }
 
 .forms-images-oc {
+    display: flex;
     width: 100%;
     height: auto;
-    display: flex;
     max-width: 400px;
+    padding-bottom: 4%;
+    margin: auto;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    padding-bottom: 4%;
 }
 
 .forms-images-oc img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
 .forms-world-text {
     width: 100%;
-    margin: auto;
     padding-left: 3%;
     padding-right: 3%;
+    margin: auto;
 }
 
 .forms-world-text h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3rem;
-    text-align: center;
     padding-top: 5%;
     padding-bottom: 1%;
-    color: #526D82;
     margin-bottom: 1%;
+    text-align: center;
+    color: #526D82;
 }
 
 .forms-world-text p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
-    text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    color: #526D82;
     margin-bottom: 1%;
+    text-align: center;
+    color: #526D82;
 }
 
 .forms-images-world {
@@ -217,14 +219,14 @@ body {
     height: auto;
     display: flex;
     max-width: 400px;
+    padding-bottom: 4%;
+    margin: auto;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    padding-bottom: 4%;
 }
 
 .forms-images-world img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -268,22 +270,22 @@ body {
 
     .navigation {
         display: flex;
-        overflow-x: auto;
-        flex-wrap: nowrap;
         padding: 0.3%;
         row-gap: 2px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
     }
 
     .words {
         font-size: 0.5rem;
+        padding: 3px;
         white-space: nowrap;
         text-align: center;
-        padding: 3px;
     }
 
     .navigation .words:first-child {
-        text-align: center;
         margin-right: 0;
+        text-align: center;
     }
 
     .words a {

@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+body {
+    background-color: #EDE9E4;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +26,7 @@
     top: 0;
     left: 0;
     justify-content: space-between;
-    background-color: rgb(101, 131, 152);
+    background-color: #658398;
     width: 100%;
     height: 6vh;
     display: flex;
@@ -30,6 +34,8 @@
     align-items: center;
     z-index: 1;
     padding: 2.5%;
+
+    box-shadow: 0 6px 12px #526D82;
 }
 
 /*.title-wordmark {
@@ -44,14 +50,16 @@
 }*/
 
 .words {
-    font-size: 20px;
+    font-family: "Kadwa-Regular", serif;
+    font-size: 0.9rem;
     padding: 10px;
     text-align: right;
     color: white;
 }
 
 .words a {
-    font-size: 20px;
+    font-family: "Kadwa-Regular", serif;
+    font-size: 0.9rem;
     padding: 10px;
     text-align: right;
     color: white;
@@ -61,4 +69,66 @@
 .navigation .words:first-child {
     margin-right: auto; /* 将第一个元素推到左侧 */
     text-align: left;
+}
+
+@font-face {
+    font-family: 'EncodeSans-Bold';
+    src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
+         url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
+         url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'MavenPro-Regular';
+    src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
+         url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
+         url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'Kadwa-Regular';
+    src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
+         url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
+         url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'IstokWeb-Bold';
+    src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
+         url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
+         url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@media screen and (max-width: 430px) {
+    .navigation {
+        display: flex;
+        padding: 0.3%;
+        row-gap: 2px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+
+    .words {
+        font-size: 0.5rem;
+        padding: 3px;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .navigation .words:first-child {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .words a {
+        font-size: 0.5rem;
+    }
 }
