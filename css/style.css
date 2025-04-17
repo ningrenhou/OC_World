@@ -341,12 +341,25 @@ img {
         font-size: 1rem;
     }
 
+    .navigation {
+        flex-wrap: wrap;
+        padding: 2.5%;
+        row-gap: 5px;
+    }
+
     .words {
-        font-size: 0.1rem;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navigation .words:first-child {
+        text-align: center;
+        margin-right: 0;
     }
 
     .words a {
-        font-size: 0.1rem;
+        font-size: 0.8rem;
     }
 }
 
