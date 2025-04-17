@@ -49,7 +49,7 @@ body {
 
 .words {
     font-family: "Kadwa-Regular", serif;
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     padding: 10px;
     text-align: right;
     color: white;
@@ -57,7 +57,7 @@ body {
 
 .words a {
     font-family: "Kadwa-Regular", serif;
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     padding: 10px;
     text-align: right;
     color: white;
@@ -115,7 +115,7 @@ body {
 
 .startdesign h1 {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 60pt;
+    font-size: 3.75rem;
     padding-top: 2%;
     padding-bottom: 2%;
     color: #526D82;
@@ -123,7 +123,7 @@ body {
 
 .startdesign p {
     font-family: "MavenPro-Regular", sans-serif;
-    font-size: 16pt;
+    font-size: 1.25rem;
     padding-top: 2%;
     padding-bottom: 2%;
     color: #526D82;
@@ -157,7 +157,7 @@ body {
 
 .step-1 h1 {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 4vw;
+    font-size: 3.75rem;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 2%;
@@ -171,7 +171,7 @@ body {
 
 .step-1-words p {
     font-family: "MavenPro-Regular", sans-serif;
-    font-size: 16pt;
+    font-size: 1.25rem;
     padding-left: auto;
     width: 75%;
     min-width: 400px;
@@ -214,7 +214,7 @@ body {
 
 .step-2 h1 {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 4vw;
+    font-size: 3.75rem;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -228,7 +228,7 @@ body {
 
 .step-2-words p {
     font-family: "MavenPro-Regular", sans-serif;
-    font-size: 16pt;
+    font-size: 1.25rem;
     padding-left: auto;
     width: 75%;
     min-width: 400px;
@@ -271,7 +271,7 @@ body {
 
 .step-3 h1 {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 4vw;
+    font-size: 3.75rem;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -285,7 +285,7 @@ body {
 
 .step-3-words p {
     font-family: "MavenPro-Regular", sans-serif;
-    font-size: 16pt;
+    font-size: 1.25rem;
     padding-left: auto;
     width: 75%;
     min-width: 400px;
@@ -308,4 +308,30 @@ body {
     width: 100%;
     height: auto;
     display: block;
+}
+
+@media screen and (max-width: 430px) {
+    html {
+        font-size: 12px; /* 所有 rem 会跟随缩小 */
+    }
+
+    .startdesign h1,
+    .step h1,
+    .step-1 h1,
+    .step-2 h1,
+    .step-3 h1 {
+        font-size: 2.8rem;
+    }
+
+    .startdesign p,
+    .step-1-words p,
+    .step-2-words p,
+    .step-3-words p {
+        font-size: 1.1rem;
+    }
+
+    .words,
+    .words a {
+        font-size: 1rem;
+    }
 }
