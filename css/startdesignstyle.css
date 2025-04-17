@@ -326,13 +326,9 @@ body {
     display: block;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .startdesign h1 {
-        font-size: 2.3rem;
-    }
-
-    .step h1 {
-        font-size: 2.3rem;
+        font-size: 2.8rem;
     }
 
     .step-1 h1 {

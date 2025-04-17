@@ -315,7 +315,7 @@ img {
     display: block;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .grid-container p {
         font-size: 1rem;
         padding-left: 5%;
