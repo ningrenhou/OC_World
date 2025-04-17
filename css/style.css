@@ -343,14 +343,14 @@ img {
 
     .navigation {
         flex-wrap: wrap;
-        padding: 2.5%;
+        padding: 1%;
         row-gap: 5px;
     }
 
     .words {
-        font-size: 0.8rem;
+        font-size: 0.4rem;
         text-align: center;
-        padding: 10px;
+        padding: 6px;
     }
 
     .navigation .words:first-child {
@@ -359,7 +359,7 @@ img {
     }
 
     .words a {
-        font-size: 0.8rem;
+        font-size: 0.4rem;
     }
 }
 
