@@ -311,10 +311,6 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-    html {
-        font-size: 12px; /* 所有 rem 会跟随缩小 */
-    }
-
     .startdesign h1,
     .step h1,
     .step-1 h1,
