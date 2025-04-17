@@ -113,10 +113,10 @@ body {
     overflow-x: hidden;
 }
 
-.ocpersonalities {
+.ocpersonalities h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
-    padding-top: 7%;
+    padding-top: 2%;
     padding-bottom: 2%;
     color: #526D82;
 }
