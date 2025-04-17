@@ -393,7 +393,7 @@ body {
     }
 
     .words {
-        font-size: 3.5vw;
+        font-size: 0.8rem;
         text-align: center;
         padding: 3px;
     }
@@ -404,6 +404,6 @@ body {
     }
 
     .words a {
-        font-size: 3.5vw;
+        font-size: 0.8rem;
     }
 }
