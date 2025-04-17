@@ -115,7 +115,7 @@ body {
 
 .ocpersonalities {
     font-family: "IstokWeb-Bold", sans-serif;
-    font-size: 3.3rem;
+    font-size: 3.75rem;
     padding-top: 120px;
     padding-bottom: 2%;
     color: #526D82;
@@ -230,7 +230,7 @@ body {
 
 @media screen and (max-width: 430px) {
     .ocpersonalities h1 {
-        font-size: 1.8rem;
+        font-size: 2.8rem;
     }
 
     .forms-text h1 {
