@@ -315,7 +315,7 @@ img {
     display: block;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
     .grid-container p {
         font-size: 1rem;
         padding-left: 5%;
@@ -348,7 +348,7 @@ img {
     }
 
     .words {
-        font-size: 1.3vw;
+        font-size: 3.5vw;
         text-align: center;
         padding: 3px;
     }
@@ -359,7 +359,7 @@ img {
     }
 
     .words a {
-        font-size: 1.3vw;
+        font-size: 3.5vw;
     }
 }
 
