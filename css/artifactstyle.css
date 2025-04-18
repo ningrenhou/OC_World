@@ -367,18 +367,22 @@ body {
 
     .apps-picrew-image {
         margin-right: 0;
+        margin-left: auto;
     }
 
     .apps-procreate-image {
         margin-right: 0;
+        margin-left: auto;
     }
 
     .apps-adobeps-image {
         margin-right: 0;
+        margin-left: auto;
     }
 
     .apps-csp-image {
         margin-right: 0;
+        margin-left: auto;
     }
 
     .navigation {
