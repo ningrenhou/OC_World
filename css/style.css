@@ -126,10 +126,9 @@
     padding-left: 5%;
     min-width: 300px;
     max-width: 500px;
-    padding-left: 5%;
+    margin-left: 5%;
     margin-right: 2vw;
     text-align: left;
-    text-align: center;
 }
 
 .hero-section {
@@ -173,13 +172,14 @@ img {
     padding-top: 2.5%;
     padding-bottom: 3%;
     align-items: center;
+    justify-content: center;
     background-color: #658398;
 }
 
 .grid-container p {
     font-family: "Kadwa-Regular", serif;
     font-size: 2.5vw;
-    padding-left: 25%;
+    justify-content: center;
     text-align: center;
     color: #CDCFD0;
 }
@@ -344,7 +344,7 @@ img {
     }
 
     .hero-text h3 {
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     .introduction-text p {
