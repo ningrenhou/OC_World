@@ -133,7 +133,7 @@ body {
 .startdesign p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
-    padding-top: 2%;
+    padding-top: 0.5%;
     padding-bottom: 2%;
     color: #526D82;
 }
@@ -175,8 +175,7 @@ body {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
     padding-top: 5%;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
+    padding-bottom: 4%;
     text-align: center;
     color: #CDCFD0;
 }
@@ -235,7 +234,6 @@ body {
     font-size: 3.75rem;
     padding-top: 4%;
     padding-bottom: 4%;
-    margin-bottom: 2%;
     text-align: center;
     color: #526D82;
 }
@@ -298,8 +296,7 @@ body {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
     padding-top: 4%;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
+    padding-bottom: 4%;
     text-align: center;
     color: #CDCFD0;
 }
