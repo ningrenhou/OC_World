@@ -151,6 +151,7 @@ body {
 }
 
 .apps-picrew-image img {
+    display: block;
     width: 80%;
     height: auto;
 }
@@ -198,6 +199,7 @@ body {
 }
 
 .apps-procreate-image img {
+    display: block;
     width: 80%;
     height: auto;
 }
@@ -240,6 +242,7 @@ body {
 }
 
 .apps-adobeps-image img {
+    display: block;
     width: 80%;
     height: auto;
 }
@@ -286,6 +289,7 @@ body {
 }
 
 .apps-csp-image img {
+    display: block;
     width: 80%;
     height: auto;
 }

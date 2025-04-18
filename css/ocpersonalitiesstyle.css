@@ -192,6 +192,7 @@ body {
 .forms-images-oc img {
     width: 90%;
     height: auto;
+    display: block;
 }
 
 .forms-world-text {
@@ -234,6 +235,7 @@ body {
 .forms-images-world img {
     width: 90%;
     height: auto;
+    display: block;
 }
 
 @media screen and (max-width: 430px) {

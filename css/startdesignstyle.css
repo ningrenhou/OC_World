@@ -201,6 +201,7 @@ body {
     width: 100%;
     height: auto;
     max-width: 400px;
+    margin: auto;
     justify-content: center;
     margin-right: auto;
 }
@@ -258,6 +259,7 @@ body {
     display: flex;
     width: 100%;
     height: auto;
+    margin: auto;
     max-width: 400px;
     justify-content: center;
     margin-right: auto;
@@ -321,6 +323,7 @@ body {
     display: flex;
     width: 100%;
     height: auto;
+    margin: auto;
     max-width: 400px;
     justify-content: center;
     margin-right: auto;
