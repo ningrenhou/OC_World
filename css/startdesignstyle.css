@@ -189,9 +189,10 @@ body {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
     width: 75%;
-    padding-top: 0.5%;
-    padding-bottom: 1%;
-    text-align: center;
+    min-width: 400px;
+    padding-bottom: 10%;
+    padding-left: auto;
+    text-align: left;
     flex-wrap: wrap;
     color: #CDCFD0;
 }
@@ -201,7 +202,6 @@ body {
     width: 100%;
     height: auto;
     max-width: 400px;
-    margin: auto;
     justify-content: center;
     margin-right: auto;
 }
@@ -247,9 +247,10 @@ body {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
     width: 75%;
-    padding-top: 0.5%;
-    padding-bottom: 1%;
-    text-align: center;
+    min-width: 400px;
+    padding-bottom: 10%;
+    padding-left: auto;
+    text-align: left;
     flex-wrap: wrap;
     color: #526D82;
 }
@@ -258,7 +259,6 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    margin: auto;
     max-width: 400px;
     justify-content: center;
     margin-right: auto;
@@ -310,9 +310,10 @@ body {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
     width: 75%;
-    padding-top: 0.5%;
-    padding-bottom: 1%;
-    text-align: center;
+    min-width: 400px;
+    padding-bottom: 10%;
+    padding-left: auto;
+    text-align: left;
     flex-wrap: wrap;
     color: #CDCFD0;
 }
@@ -321,7 +322,6 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    margin: auto;
     max-width: 400px;
     justify-content: center;
     margin-right: auto;
