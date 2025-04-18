@@ -1,14 +1,21 @@
 .backtotop {
+    display: flex;
+    font-family: "Kadwa-Regular", serif;
+    color: #526D82;
     position: fixed;
-    right: 0.5%;
-    bottom: 1%;
+    right: 1.8%;
+    bottom: 4%;
+    border-radius: 5px;
+    padding-top: auto;
     font-size: 2rem;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 40px;
     background-color: #EDE9E4;
-    filter: drop-shadow(2px 2px 20px blue);
+    filter: drop-shadow(2px 2px 20px #3E5879);
     text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -73,41 +80,310 @@ body {
 
 @font-face {
     font-family: 'EncodeSans-Bold';
-    src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
-         url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
-         url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
+    src: url('/fonts/EncodeSans-Bold.woff') format('woff'),
+         url('/fonts/EncodeSans-Bold.woff2') format('woff2'),
+         url('/fonts/EncodeSans-Bold.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'MavenPro-Regular';
-    src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
-         url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
-         url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
+    src: url('/fonts/MavenPro-Regular.woff') format('woff'),
+         url('/fonts/MavenPro-Regular.woff2') format('woff2'),
+         url('/fonts/MavenPro-Regular.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'Kadwa-Regular';
-    src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
-         url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
-         url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
+    src: url('/fonts/Kadwa-Regular.woff') format('woff'),
+         url('/fonts/Kadwa-Regular.woff2') format('woff2'),
+         url('/fonts/Kadwa-Regular.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'IstokWeb-Bold';
-    src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
-         url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
-         url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
+    src: url('/fonts/IstokWeb-Bold.woff') format('woff'),
+         url('/fonts/IstokWeb-Bold.woff2') format('woff2'),
+         url('/fonts/IstokWeb-Bold.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
+.artifact {
+    max-width: 90%;
+    padding-top: 100px; /* 避开导航栏 */
+    padding-bottom: 50px;
+    padding-left: 6%;
+    overflow-x: hidden;
+}
+
+.artifact h1 {
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 3.75rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #526D82;
+}
+
+.artifact p {
+    font-family: "MavenPro-Regular", sans-serif;
+    font-size: 1.25rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #526D82;
+}
+
+.apps-picrew-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps-picrew-image img {
+    width: 80%;
+    height: auto;
+}
+
+.apps-1-picrew {
+    background-color: #658398;
+}
+
+.apps-piccrew-text {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+}
+
+.apps-piccrew-text h1{
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    color: #CDCFD0;
+}
+
+.apps-piccrew-text p {
+    font-family: "MavenPro-Regular", sans-serif;
+    font-size: 1.25rem;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #CDCFD0;
+}
+
+.apps-procreate-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps-procreate-image img {
+    width: 80%;
+    height: auto;
+}
+
+.apps-procreate-text {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+}
+
+.apps-procreate-text h1{
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    color: #526D82;
+}
+
+.apps-procreate-text p {
+    font-family: "MavenPro-Regular", sans-serif;
+    font-size: 1.25rem;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #526D82;
+}
+
+.apps-adobeps-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps-adobeps-image img {
+    width: 80%;
+    height: auto;
+}
+
+.apps-3-adobeps {
+    background-color: #658398;
+}
+
+.apps-adobeps-text {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+}
+
+.apps-adobeps-text h1{
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    color: #CDCFD0;
+}
+
+.apps-adobeps-text p {
+    font-family: "MavenPro-Regular", sans-serif;
+    font-size: 1.25rem;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #CDCFD0;
+}
+
+.apps-csp-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps-csp-image img {
+    width: 80%;
+    height: auto;
+}
+
+.apps-csp-text {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+}
+
+.apps-csp-text h1{
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    color: #526D82;
+}
+
+.apps-csp-text p {
+    font-family: "MavenPro-Regular", sans-serif;
+    font-size: 1.25rem;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #526D82;
+}
+
 @media screen and (max-width: 430px) {
+    .artifact h1 {
+        font-size: 2.8rem;
+    }
+
+    .apps-piccrew-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .apps-procreate-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .apps-adobeps-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .apps-csp-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .artifact p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .apps-piccrew-text p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .apps-procreate-text p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .apps-adobeps-text p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .apps-csp-text p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .apps-picrew-image {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .apps-procreate-image {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .apps-adobeps-image {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .apps-csp-image {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
     .navigation {
         display: flex;
         padding: 0.3%;
