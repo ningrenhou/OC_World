@@ -302,6 +302,8 @@ body {
     width: 100%;
     padding-left: 3%;
     padding-right: 3%;
+    padding-bottom: 15vh;
+    margin-bottom: 5vh;
     margin: auto;
 }
 
@@ -318,8 +320,6 @@ body {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
     padding-top: 1%;
-    padding-bottom: 15vh;
-    margin-bottom: 5vh;
     text-align: center;
     color: #526D82;
 }
