@@ -188,10 +188,9 @@ body {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
     width: 75%;
-    min-width: 400px;
-    padding-bottom: 10%;
-    padding-left: auto;
-    text-align: left;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    text-align: center;
     flex-wrap: wrap;
     color: #CDCFD0;
 }
@@ -247,10 +246,9 @@ body {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
     width: 75%;
-    min-width: 400px;
-    padding-bottom: 10%;
-    padding-left: auto;
-    text-align: left;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    text-align: center;
     flex-wrap: wrap;
     color: #526D82;
 }
@@ -311,10 +309,9 @@ body {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
     width: 75%;
-    min-width: 400px;
-    padding-bottom: 10%;
-    padding-left: auto;
-    text-align: left;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    text-align: center;
     flex-wrap: wrap;
     color: #CDCFD0;
 }
