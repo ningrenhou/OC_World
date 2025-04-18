@@ -1,14 +1,21 @@
 .backtotop {
+    display: flex;
+    font-family: "Kadwa-Regular", serif;
+    color: #526D82;
     position: fixed;
-    right: 0.5%;
-    bottom: 1%;
+    right: 1.8%;
+    bottom: 4%;
+    border-radius: 5px;
+    padding-top: auto;
     font-size: 2rem;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     background-color: #EDE9E4;
-    filter: drop-shadow(2px 2px 20px blue);
+    filter: drop-shadow(2px 2px 20px #3E5879);
     text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -73,36 +80,36 @@ body {
 
 @font-face {
     font-family: 'EncodeSans-Bold';
-    src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
-         url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
-         url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
+    src: url('/fonts/EncodeSans-Bold.woff') format('woff'),
+         url('/fonts/EncodeSans-Bold.woff2') format('woff2'),
+         url('/fonts/EncodeSans-Bold.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'MavenPro-Regular';
-    src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
-         url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
-         url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
+    src: url('/fonts/MavenPro-Regular.woff') format('woff'),
+         url('/fonts/MavenPro-Regular.woff2') format('woff2'),
+         url('/fonts/MavenPro-Regular.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'Kadwa-Regular';
-    src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
-         url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
-         url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
+    src: url('/fonts/Kadwa-Regular.woff') format('woff'),
+         url('/fonts/Kadwa-Regular.woff2') format('woff2'),
+         url('/fonts/Kadwa-Regular.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 @font-face {
     font-family: 'IstokWeb-Bold';
-    src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
-         url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
-         url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
+    src: url('/fonts/IstokWeb-Bold.woff') format('woff'),
+         url('/fonts/IstokWeb-Bold.woff2') format('woff2'),
+         url('/fonts/IstokWeb-Bold.ttf') format('turetype');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
