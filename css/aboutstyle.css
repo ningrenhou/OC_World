@@ -1,3 +1,4 @@
+/*Back to top button*/
 .backtotop {
     display: flex;
     font-family: "Kadwa-Regular", serif;
@@ -6,6 +7,7 @@
     opacity: 0.3;
     right: 1.8%;
     bottom: 4%;
+    /*Tutorials from https://www.w3schools.com/cssref/css3_pr_border-radius.php*/
     border-radius: 5px;
     padding-top: auto;
     font-size: 2rem;
@@ -19,10 +21,9 @@
     align-items: center;
 }
 
-body {
-    background-color: #EDE9E4;
-}
 
+
+/*Global Style*/
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +31,8 @@ body {
     scroll-behavior: smooth;
 }
 
+
+/*navigation bare*/
 .navigation {
     position: fixed;
     top: 0;
@@ -47,17 +50,9 @@ body {
     box-shadow: 0 6px 12px #526D82;
 }
 
-/*.title-wordmark {
-    color: rgb(255, 255, 255);
-    position: relative;
-    z-index:2;
 
-    font-size:14px;
-    padding-right:50px;
 
-    margin-top: 1.6vh;
-}*/
-
+/*Text styles inside the navigation bar*/
 .words {
     font-family: "Kadwa-Regular", serif;
     font-size: 0.9rem;
@@ -75,47 +70,59 @@ body {
     text-decoration: none;
 }
 
+/*Tutorials from https://www.w3schools.com/cssref/sel_firstchild.php*/
 .navigation .words:first-child {
     text-align: left;
-    margin-right: auto; /* 将第一个元素推到左侧 */
+    margin-right: auto;
 }
 
+
+
+/*Font Import*/
+/*Tutorials from https://github.com/lange-lange/css-custom-web-fonts/blob/main/css/styles.css*/
+/*Downloaded .ttf from https://fonts.google.com/specimen/Encode+Sans*/
 @font-face {
     font-family: 'EncodeSans-Bold';
     src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
          url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Maven+Pro*/
 @font-face {
     font-family: 'MavenPro-Regular';
     src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
          url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Kadwa*/
 @font-face {
     font-family: 'Kadwa-Regular';
     src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
          url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Istok+Web*/
 @font-face {
     font-family: 'IstokWeb-Bold';
     src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
          url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+
+
+/*Main Title Area*/
 .title {
     max-width: 90%;
     padding-top: 100px; /* 避开导航栏 */
@@ -123,6 +130,9 @@ body {
     padding-left: 5%;
 }
 
+
+
+/*Main Title Area text*/
 .title h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
@@ -144,6 +154,9 @@ body {
     color: #526D82;
 }
 
+
+/*Media queries*/
+/*Tutorials from https://www.w3schools.com/cssref/atrule_media.php*/
 @media screen and (max-width: 430px) {
     .title h1 {
         font-size: 2.5rem;

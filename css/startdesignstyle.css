@@ -1,3 +1,4 @@
+/*Back to top button*/
 .backtotop {
     display: flex;
     font-family: "Kadwa-Regular", serif;
@@ -6,6 +7,7 @@
     opacity: 0.3;
     right: 1.8%;
     bottom: 4%;
+    /*Tutorials from https://www.w3schools.com/cssref/css3_pr_border-radius.php*/
     border-radius: 5px;
     padding-top: auto;
     font-size: 2rem;
@@ -19,10 +21,9 @@
     align-items: center;
 }
 
-body {
-    background-color: #EDE9E4;
-}
 
+
+/*Global Style*/
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +31,8 @@ body {
     scroll-behavior: smooth;
 }
 
+
+/*navigation bare*/
 .navigation {
     position: fixed;
     top: 0;
@@ -47,17 +50,9 @@ body {
     box-shadow: 0 6px 12px #526D82;
 }
 
-/*.title-wordmark {
-    color: rgb(255, 255, 255);
-    position: relative;
-    z-index:2;
 
-    font-size:14px;
-    padding-right:50px;
 
-    margin-top: 1.6vh;
-}*/
-
+/*Text styles inside the navigation bar*/
 .words {
     font-family: "Kadwa-Regular", serif;
     font-size: 0.9rem;
@@ -75,47 +70,59 @@ body {
     text-decoration: none;
 }
 
+/*Tutorials from https://www.w3schools.com/cssref/sel_firstchild.php*/
 .navigation .words:first-child {
     text-align: left;
-    margin-right: auto; /* 将第一个元素推到左侧 */
+    margin-right: auto;
 }
 
+
+
+/*Font Import*/
+/*Tutorials from https://github.com/lange-lange/css-custom-web-fonts/blob/main/css/styles.css*/
+/*Downloaded .ttf from https://fonts.google.com/specimen/Encode+Sans*/
 @font-face {
     font-family: 'EncodeSans-Bold';
     src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
          url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Maven+Pro*/
 @font-face {
     font-family: 'MavenPro-Regular';
     src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
          url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Kadwa*/
 @font-face {
     font-family: 'Kadwa-Regular';
     src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
          url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Istok+Web*/
 @font-face {
     font-family: 'IstokWeb-Bold';
     src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
          url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+
+
+/*Start Design Title and Profile area*/
 .startdesign {
     max-width: 90%;
     padding-top: 100px; /* 避开导航栏 */
@@ -124,6 +131,8 @@ body {
     overflow-x: hidden;
 }
 
+
+/*Start Design Title text*/
 .startdesign h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
@@ -132,6 +141,8 @@ body {
     color: #526D82;
 }
 
+
+/*Start Design paragraphs*/
 .startdesign p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
@@ -140,6 +151,8 @@ body {
     color: #526D82;
 }
 
+
+/*Main steps as a whole*/
 .step {
     display: flex;
     padding-left: 0;
@@ -150,11 +163,14 @@ body {
     overflow-x: hidden;
 }
 
+/*Step 1 background color*/
 .step-1-background {
     width: 100%;
     background-color: #658398;
 }
 
+
+/*Step 1 element*/
 .step-1 {
     width: 100%;
     padding-left: 3%;
@@ -162,6 +178,8 @@ body {
     margin: auto;
 }
 
+
+/*Step 1 the text and images are laid out side by side*/
 .step-1-between {
     display: flex;
     gap: 3%;
@@ -173,6 +191,7 @@ body {
     align-items: flex-start;
 }
 
+/*Step 1 title*/
 .step-1 h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
@@ -182,10 +201,13 @@ body {
     color: #CDCFD0;
 }
 
+
+/*Step 1 text description area*/
 .step-1-words {
     width: 57%;
 }
 
+/*Step 1 paragraphs*/
 .step-1-words p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
@@ -198,6 +220,7 @@ body {
     color: #CDCFD0;
 }
 
+/*Step 1 image*/
 .step-1-image {
     display: flex;
     width: 100%;
@@ -213,6 +236,8 @@ body {
     display: block;
 }
 
+
+/*Step 2 element*/
 .step-2 {
     width: 100%;
     padding-left: 3%;
@@ -220,6 +245,8 @@ body {
     margin: auto;
 }
 
+
+/*Step 2 the text and images are laid out side by side*/
 .step-2-between {
     display: flex;
     gap: 3%;
@@ -231,6 +258,8 @@ body {
     align-items: flex-start;
 }
 
+
+/*Step 2 title*/
 .step-2 h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
@@ -240,10 +269,14 @@ body {
     color: #526D82;
 }
 
+
+/*Step 2 text description area*/
 .step-2-words {
   width: 57%;
 }
 
+
+/*Step 2 paragraphs*/
 .step-2-words p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
@@ -256,6 +289,7 @@ body {
     color: #526D82;
 }
 
+/*Step 2 image*/
 .step-2-image {
     display: flex;
     width: 100%;
@@ -271,6 +305,8 @@ body {
     display: block;
 }
 
+
+/*Step 3 element*/
 .step-3 {
     width: 100%;
     padding-left: 3%;
@@ -278,11 +314,13 @@ body {
     margin: auto;
 }
 
+/*Step 3 background color*/
 .step-3-background {
     width: 100%;
     background-color: #658398;
 }
 
+/*Step 3 the text and images are laid out side by side*/
 .step-3-between {
     display: flex;
     gap: 3%;
@@ -294,6 +332,7 @@ body {
     align-items: flex-start;
 }
 
+/*Step 3 title*/
 .step-3 h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
@@ -303,10 +342,12 @@ body {
     color: #CDCFD0;
 }
 
+/*Step 3 text description area*/
 .step-3-words {
   width: 57%;
 }
 
+/*Step 3 paragraph*/
 .step-3-words p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
@@ -319,6 +360,7 @@ body {
     color: #CDCFD0;
 }
 
+/*Step 3 image*/
 .step-3-image {
     display: flex;
     width: 100%;
@@ -334,6 +376,10 @@ body {
     display: block;
 }
 
+
+
+/*Media queries*/
+/*Tutorials from https://www.w3schools.com/cssref/atrule_media.php*/
 @media screen and (max-width: 430px) {
     .startdesign h1 {
         font-size: 2.8rem;

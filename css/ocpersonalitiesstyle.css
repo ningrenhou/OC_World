@@ -1,3 +1,4 @@
+/*Back to top button*/
 .backtotop {
     display: flex;
     font-family: "Kadwa-Regular", serif;
@@ -6,6 +7,7 @@
     opacity: 0.3;
     right: 1.8%;
     bottom: 4%;
+    /*Tutorials from https://www.w3schools.com/cssref/css3_pr_border-radius.php*/
     border-radius: 5px;
     padding-top: auto;
     font-size: 2rem;
@@ -19,10 +21,9 @@
     align-items: center;
 }
 
-body {
-    background-color: #EDE9E4;
-}
 
+
+/*Global Style*/
 * {
     margin: 0;
     padding: 0;
@@ -30,34 +31,28 @@ body {
     scroll-behavior: smooth;
 }
 
+
+/*navigation bare*/
 .navigation {
     position: fixed;
     top: 0;
     left: 0;
-    justify-content: space-between;
-    background-color: #658398;
     width: 100%;
     height: 6vh;
     display: flex;
     /*flex-direction: row-reverse;*/
-    align-items: center;
     z-index: 1;
     padding: 2.5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #658398;
 
     box-shadow: 0 6px 12px #526D82;
 }
 
-/*.title-wordmark {
-    color: rgb(255, 255, 255);
-    position: relative;
-    z-index:2;
 
-    font-size:14px;
-    padding-right:50px;
 
-    margin-top: 1.6vh;
-}*/
-
+/*Text styles inside the navigation bar*/
 .words {
     font-family: "Kadwa-Regular", serif;
     font-size: 0.9rem;
@@ -75,47 +70,58 @@ body {
     text-decoration: none;
 }
 
+/*Tutorials from https://www.w3schools.com/cssref/sel_firstchild.php*/
 .navigation .words:first-child {
-    margin-right: auto; /* 将第一个元素推到左侧 */
     text-align: left;
+    margin-right: auto;
 }
 
+
+
+/*Font Import*/
+/*Tutorials from https://github.com/lange-lange/css-custom-web-fonts/blob/main/css/styles.css*/
+/*Downloaded .ttf from https://fonts.google.com/specimen/Encode+Sans*/
 @font-face {
     font-family: 'EncodeSans-Bold';
     src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
          url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Maven+Pro*/
 @font-face {
     font-family: 'MavenPro-Regular';
     src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
          url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Kadwa*/
 @font-face {
     font-family: 'Kadwa-Regular';
     src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
          url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Istok+Web*/
 @font-face {
     font-family: 'IstokWeb-Bold';
     src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
          url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+
+/*OC personal Title and Profile area*/
 .ocpersonalities {
     max-width: 90%;
     padding-top: 100px; /* 避开导航栏 */
@@ -125,6 +131,7 @@ body {
     overflow-x: hidden;
 }
 
+/*OC personal Title text*/
 .ocpersonalities h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3.75rem;
@@ -133,6 +140,7 @@ body {
     color: #526D82;
 }
 
+/*OC personal paragraphs*/
 .ocpersonalities p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
@@ -141,6 +149,8 @@ body {
     color: #526D82;
 }
 
+
+/*Main forms as a whole*/
 .forms {
     display: flex;
     align-items: center;
@@ -149,11 +159,13 @@ body {
     overflow-x: hidden;
 }
 
+/*character forms background color*/
 .forms-background {
     width: 100%;
     background-color: #658398;
 }
 
+/*character forms text*/
 .forms-text {
     width: 100%;
     padding-left: 3%;
@@ -161,6 +173,7 @@ body {
     margin: auto;
 }
 
+/*character forms title*/
 .forms-text h1{
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3rem;
@@ -170,6 +183,7 @@ body {
     color: #CDCFD0;
 }
 
+/*character forms paragraphs*/
 .forms-text p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
@@ -180,6 +194,7 @@ body {
     color: #CDCFD0;
 }
 
+/*character forms pinture*/
 .forms-images-oc {
     display: flex;
     width: 100%;
@@ -198,6 +213,8 @@ body {
     display: block;
 }
 
+
+/*world forms text*/
 .forms-world-text {
     width: 100%;
     padding-left: 3%;
@@ -205,6 +222,7 @@ body {
     margin: auto;
 }
 
+/*world forms title*/
 .forms-world-text h1 {
     font-family: "IstokWeb-Bold", sans-serif;
     font-size: 3rem;
@@ -214,6 +232,7 @@ body {
     color: #526D82;
 }
 
+/*world forms paragraphs*/
 .forms-world-text p {
     font-family: "MavenPro-Regular", sans-serif;
     font-size: 1.25rem;
@@ -223,6 +242,8 @@ body {
     color: #526D82;
 }
 
+
+/*world forms pinture*/
 .forms-images-world {
     width: 100%;
     height: auto;
@@ -241,6 +262,9 @@ body {
     display: block;
 }
 
+
+/*Media queries*/
+/*Tutorials from https://www.w3schools.com/cssref/atrule_media.php*/
 @media screen and (max-width: 430px) {
     .ocpersonalities h1 {
         font-size: 2.8rem;

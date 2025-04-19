@@ -1,3 +1,4 @@
+/*Back to top button*/
 .backtotop {
     display: flex;
     font-family: "Kadwa-Regular", serif;
@@ -6,6 +7,7 @@
     opacity: 0.3;
     right: 1.8%;
     bottom: 4%;
+    /*Tutorials from https://www.w3schools.com/cssref/css3_pr_border-radius.php*/
     border-radius: 5px;
     padding-top: auto;
     font-size: 2rem;
@@ -19,6 +21,9 @@
     align-items: center;
 }
 
+
+
+/*Global Style*/
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +31,8 @@
     scroll-behavior: smooth;
 }
 
+
+/*navigation bare*/
 .navigation {
     position: fixed;
     top: 0;
@@ -43,6 +50,9 @@
     box-shadow: 0 6px 12px #526D82;
 }
 
+
+
+/*Text styles inside the navigation bar*/
 .words {
     font-family: "Kadwa-Regular", serif;
     font-size: 0.9rem;
@@ -60,48 +70,60 @@
     text-decoration: none;
 }
 
+/*Tutorials from https://www.w3schools.com/cssref/sel_firstchild.php*/
 .navigation .words:first-child {
     text-align: left;
-    margin-right: auto; /* 将第一个元素推到左侧 */
+    margin-right: auto;
 }
 
+
+
+/*Font Import*/
+/*Tutorials from https://github.com/lange-lange/css-custom-web-fonts/blob/main/css/styles.css*/
+/*Downloaded .ttf from https://fonts.google.com/specimen/Encode+Sans*/
 @font-face {
     font-family: 'EncodeSans-Bold';
     src: url('/oc_world/fonts/EncodeSans-Bold.woff') format('woff'),
          url('/oc_world/fonts/EncodeSans-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/EncodeSans-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Maven+Pro*/
 @font-face {
     font-family: 'MavenPro-Regular';
     src: url('/oc_world/fonts/MavenPro-Regular.woff') format('woff'),
          url('/oc_world/fonts/MavenPro-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/MavenPro-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Kadwa*/
 @font-face {
     font-family: 'Kadwa-Regular';
     src: url('/oc_world/fonts/Kadwa-Regular.woff') format('woff'),
          url('/oc_world/fonts/Kadwa-Regular.woff2') format('woff2'),
          url('/oc_world/fonts/Kadwa-Regular.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
+/*Downloaded .ttf from https://fonts.google.com/specimen/Istok+Web*/
 @font-face {
     font-family: 'IstokWeb-Bold';
     src: url('/oc_world/fonts/IstokWeb-Bold.woff') format('woff'),
          url('/oc_world/fonts/IstokWeb-Bold.woff2') format('woff2'),
          url('/oc_world/fonts/IstokWeb-Bold.ttf') format('turetype');
     font-weight: normal;
-    font-style: normal; /*调整用什么款式的字体的*/
+    font-style: normal;
 }
 
-/*关于标题和旁边的大小姐图片的*/
+
+
+
+/*Title Text Setting*/
 .hero-text h1 {
     font-family: "EncodeSans-Bold", sans-serif;
     font-size: 8vw; 
@@ -131,20 +153,26 @@
     text-align: left;
 }
 
+
+/*Title and picture to the right*/
 .hero-section {
     display: flex;
     padding: 50px;
     gap: 15vw;
     background-color: #EDE9E4; 
     padding-top: 12%;
-    padding-bottom: 3%; /* ✅ 减小底部空间，压缩中间缝隙 */
-    row-gap: 12px;       /* ✅ 控制标题和图像的垂直间隔 */
+    padding-bottom: 3%;
+    /*Tutorials from https://www.w3schools.com/cssref/css3_pr_row-gap.php*/
+    row-gap: 12px;
+    /*Tutorials from https://www.w3schools.com/cssref/css3_pr_overflow-x.php*/
     overflow-x: hidden;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
 }
 
+
+/*Image to the right of the title*/
 .hero-image {
     display: flex;
     width: 40%;
@@ -163,7 +191,9 @@ img {
     display: block;
 }
 
-/*关于宣言的*/
+
+
+/*Declaration of rejection of plagiarism*/
 .grid-container {
     display: flex;   
     padding: 15px;
@@ -184,7 +214,10 @@ img {
     color: #CDCFD0;
 }
 
-/*四个oc图片和文字的*/
+
+
+
+/*Four OC Character Pictures*/
 .container {
     display: flex;
     padding: 20px;
@@ -214,7 +247,9 @@ img {
     color: #526D82;
 }
 
-/*下面第一段文字的*/
+
+
+/*Introductory paragraph*/
 .introduction-text {
     padding-left: 5%;
     background-color: #658398;
@@ -238,7 +273,10 @@ img {
     color: #CDCFD0;
 }
 
-/*下面第二段文字的*/
+
+
+
+/*What is OC's paragraph*/
 .whatisoc-text {
     padding-left: 5%;
     padding-bottom: 2%;
@@ -260,6 +298,9 @@ img {
     color: #526D82;
 }
 
+
+
+/*Connect & Socialize*/
 .talk-section {
     display: flex;
     padding-top: 6vw;
@@ -272,6 +313,8 @@ img {
     background-color: #658398;
 }
 
+
+/*Connect & Socialize text*/
 .talk-text {
     display: flex;
     gap: 1vw;
@@ -296,6 +339,8 @@ img {
     color: #EDE9E4;
 }
 
+
+/*social link*/
 .flex-container {
     margin-top: 2vw;
     gap: 1.5vw;
@@ -305,15 +350,17 @@ img {
 }
 
 .flex-container a img {
-    width: 5vw;       /* 根据视口宽度缩放 */
-    max-width: 100px;  /* 设置最大宽度 */
-    min-width: 30px;   /* 设置最小宽度，防止太小 */
+    width: 5vw;
+    max-width: 100px;  
+    min-width: 30px;
     height: auto;
 }
 
+
+/*Picture on the right*/
 .talk-image {
     display: flex;
-    width: 100%;    /* 占满整行 */
+    width: 100%;
     padding-right: 8%;
     justify-content: flex-end;
     align-items: center;
@@ -325,6 +372,9 @@ img {
     display: block;
 }
 
+
+/*Media queries*/
+/*Tutorials from https://www.w3schools.com/cssref/atrule_media.php*/
 @media screen and (max-width: 430px) {
     .grid-container p {
         font-size: 1rem;
