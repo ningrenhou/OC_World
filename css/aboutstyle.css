@@ -1,3 +1,7 @@
+body {
+    background-color: #EDE9E4;
+}
+
 /*Back to top button*/
 .backtotop {
     display: flex;
